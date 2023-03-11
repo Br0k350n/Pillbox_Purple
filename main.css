@@ -119,7 +119,7 @@ a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 50%;
+    width: 44%;
     height: 100%;
     background-color: #4f00b78e;
   }
@@ -298,6 +298,10 @@ a {
   }
 
   .logo {
+    width: 100%;
+    height: auto;
+  }
+  .logo_link {
     width: 80%;
   }
 
@@ -440,12 +444,17 @@ a {
 
   .logo {
     width: 80%;
+    height: auto;
+  }
+
+  .logo_link {
+    width: 80%;
   }
 
   /* Header End */
 
   /* NavBar */
-
+  
   .link-wrapper {
     width: 100%;
     display: flex;
