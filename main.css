@@ -31,22 +31,23 @@ body::-webkit-scrollbar {
     flex-direction: column;
 }
 .logo__container {
-    width: 25%;
+    width: 100%;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
+    /* padding: 15px; */
 }
 .logo {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
 }
 .header {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #350278;
+    background-color: #163e6a;
 }
 a {
     color: #fff;
@@ -66,7 +67,7 @@ a {
     transition: 0.4s;
   }
   .disabled:hover {
-    background-color: #2e0564;
+    background-color: #1e5187;
   }
   .link-wrapper {
     display: flex;
@@ -94,7 +95,7 @@ a {
     transition: 0.4s;
   }
   .special:hover {
-    background-color: #601eb7;
+    background-color: #2865a7;
   }
   .hero__wrapper {
     width: 100%;
@@ -121,7 +122,7 @@ a {
     flex-direction: column;
     width: 44%;
     height: 100%;
-    background-color: #4f00b78e;
+    background-color: #4a92de50;
   }
   .hero-p {
     font-size: 20px;
@@ -133,7 +134,7 @@ a {
   .divider {
     height: 61px;
     width: 100%;
-    background-color: #350278;
+    background-color: #163e6a;
   }
   .main {
     display: flex;
@@ -262,7 +263,7 @@ a {
     100% {background-color: rgb(162, 209, 255); color: black}
   }
   .logo_link {
-    padding: 0;
+    padding: 10px;
     margin: 0;
     display: flex;
     height: fit-content;
@@ -281,7 +282,7 @@ a {
     
 } */
 
-@media only screen and (max-width: 1125px) and (min-width: 621px) {
+@media only screen and (max-width: 1235px) and (min-width: 622px) {
   /* For mobile phones: */
 
 
@@ -294,15 +295,16 @@ a {
 
   .logo__container {
     width: 100%;
-    justify-content: center;
+    justify-content: space-between;
   }
 
   .logo {
-    width: 100%;
+    width: 125px;
     height: auto;
   }
   .logo_link {
-    width: 80%;
+    width: auto;
+    justify-content: center;
   }
 
   /* Header End */
@@ -341,7 +343,7 @@ a {
 
   .hero-text {
     padding: 25px 0;
-    background-color:#163f6a9e ;
+    background-color: #2b92ff96; ;
   }
   .hero-p {
     margin-left: 10px;
@@ -426,7 +428,7 @@ a {
   }
 }
 
-@media only screen and (max-width: 620px) {
+@media only screen and (max-width: 621px) {
   /* For mobile phones: */
 
 
@@ -439,16 +441,17 @@ a {
 
   .logo__container {
     width: 100%;
-    justify-content: center;
+    
   }
 
   .logo {
-    width: 80%;
+    width: 150px;
     height: auto;
   }
 
   .logo_link {
-    width: 80%;
+    width: auto;
+    justify-content: center;
   }
 
   /* Header End */
